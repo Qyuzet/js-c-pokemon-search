@@ -1,0 +1,175 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(1, 1, 41);
+}
+
+main {
+  border-radius: 1.2em;
+  min-width: 25%;
+  max-width: 25%;
+
+  height: fit-content;
+  background-color: white;
+}
+
+main h1 {
+  text-align: center;
+  font-size: 1.5em;
+  padding: 0.7em 0;
+}
+
+.container {
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+form {
+  padding-top: 1em;
+  display: block;
+  text-align: center;
+}
+
+form button {
+  padding: 0.2em 0.5em;
+  background-color: rgb(175, 71, 175);
+  color: white;
+  border-radius: 0.5em;
+  border-color: transparent;
+  cursor: pointer;
+}
+
+form input {
+  padding: 0.2em 0.5em;
+  background-color: white;
+  color: grey;
+  border-radius: 0.5em;
+}
+
+form label {
+  display: block;
+  margin-bottom: 0.7em;
+}
+
+.output {
+  width: 100%;
+  padding-top: 1em;
+}
+
+.top-container {
+  height: 15em;
+}
+
+.top-container .name-and-id {
+  display: flex;
+  gap: 1em;
+  font-size: 1.3em;
+  padding: 0.5em 0.6em;
+}
+
+.top-container .size {
+  display: flex;
+  gap: 1em;
+  font-size: 0.9em;
+  padding: 0.5em 1em;
+}
+
+.sprite-container {
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+img {
+  object-fit: cover;
+  scale: 1.8;
+}
+
+#types {
+  margin: 0.5em 0.6em;
+}
+
+#types span {
+  display: inline-flex;
+  margin: 0 0.2em;
+
+  padding: 0.2em;
+  border: 1px solid black;
+  border-radius: 0.3em;
+}
+
+.bottom-container {
+  width: 100%;
+}
+
+table {
+  margin: auto;
+  width: 80%;
+  text-align: center;
+  margin-bottom: 1em;
+}
+
+th,
+td {
+  background-color: rgb(175, 71, 175);
+  color: white;
+  border-radius: 0.5em;
+}
+
+@media (max-width: 1065px) {
+  main {
+    border-radius: 1.2em;
+    min-width: 30%;
+    max-width: 30%;
+
+    height: fit-content;
+    background-color: white;
+  }
+}
+
+@media (max-width: 950px) {
+  main {
+    border-radius: 1.2em;
+    min-width: 40%;
+    max-width: 40%;
+
+    height: fit-content;
+    background-color: white;
+  }
+}
+
+@media (max-width: 850px) {
+  main {
+    border-radius: 1.2em;
+    min-width: 50%;
+    max-width: 50%;
+
+    height: fit-content;
+    background-color: white;
+  }
+}
+
+@media (max-width: 480px) {
+  main {
+    border-radius: 1.2em;
+    min-width: 70%;
+    max-width: 70%;
+
+    height: fit-content;
+    background-color: white;
+  }
+}
