@@ -18,7 +18,7 @@ A simple web application that allows users to search for Pokémon by name or ID.
 
 ## Live Demo
 
-You can view the live demo of the Pokémon Search App here: [Live Demo](https://yourusername.github.io/pokemon-search-app/) 
+You can view the live demo of the Pokémon Search App here: [Live Demo](https://Qyuzet.github.io/pokemon-search-app/) 
 
 ## Getting Started
 
