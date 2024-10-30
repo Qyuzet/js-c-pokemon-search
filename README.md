@@ -3,6 +3,9 @@
 
 A simple web application that allows users to search for Pokémon by name or ID. The app fetches data from the Pokémon API and displays various details about the Pokémon, including its name, ID, weight, height, base stats, and types.
 
+![image](https://github.com/user-attachments/assets/cdc0f3a4-1053-48d4-832f-f314a4cddec2)
+
+
 ## Features
 
 - Search for Pokémon by name or ID.
